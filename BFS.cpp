@@ -3,10 +3,10 @@
 
 #define MAX_NODES 100
 
-int graph[MAX_NODES][MAX_NODES]; // adjacency matrix
-int visited[MAX_NODES]; // visited nodes
-int queue[MAX_NODES]; // queue for BFS
-int front = -1, rear = -1; // front and rear of the queue
+int graph[MAX_NODES][MAX_NODES]; 
+int visited[MAX_NODES]; 
+int queue[MAX_NODES]; 
+int front = -1, rear = -1; 
 
 void bfs(int start, int num_nodes) {
     visited[start] = 1;

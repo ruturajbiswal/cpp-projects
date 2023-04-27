@@ -3,8 +3,8 @@
 
 #define MAX_NODES 100
 
-int graph[MAX_NODES][MAX_NODES]; // adjacency matrix
-int visited[MAX_NODES]; // visited nodes
+int graph[MAX_NODES][MAX_NODES];
+int visited[MAX_NODES]; 
 
 void dfs(int node, int num_nodes) {
     visited[node] = 1;
